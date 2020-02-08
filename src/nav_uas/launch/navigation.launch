@@ -1,0 +1,6 @@
+<launch>
+<node pkg="nav_uas" type="navigation" name="navigation">
+  <param name="threshold_dist" type="double" value="2.5" />
+  <param name="path" type="string" value="/home/ubuntu/Documents/test_ws/path.txt"/>
+</node>
+</launch>

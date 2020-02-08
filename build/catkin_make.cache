@@ -1,0 +1,2 @@
+boat_controller:nav_uas:nmea2000
+-DCATKIN_WHITELIST_PACKAGES=boat_controller -DCATKIN_DEVEL_PREFIX=/home/ubuntu/Documents/test_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/test_ws/install -G Unix Makefiles

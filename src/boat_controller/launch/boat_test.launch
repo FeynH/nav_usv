@@ -1,0 +1,14 @@
+<launch> 
+
+<include file="$(find nmea2000)/launch/my_nmea_driver.launch" />
+<include file="$(find nav_uas)/launch/navigation.launch" />
+
+<node pkg="boat_controller" type="cartest" name="cartest" />
+
+<node pkg="boat_controller" type="boat_control" name="boat_control">
+ <param name="controlPort" type="string" value="/dev/ttyUSB2" />
+ <param name="Baudrate" type="int" value="9600" />
+ <param name="offset_right" type="double" value="40.0" />
+</node>
+
+</launch>

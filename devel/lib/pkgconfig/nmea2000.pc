@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Documents/test_ws/devel
+
+Name: nmea2000
+Description: Description of nmea2000
+Version: 0.0.0
+Cflags: -I/home/ubuntu/Documents/test_ws/devel/include -I/home/ubuntu/Documents/test_ws/src/nmea2000/include
+Libs: -L/home/ubuntu/Documents/test_ws/devel/lib 
+Requires: message_runtime

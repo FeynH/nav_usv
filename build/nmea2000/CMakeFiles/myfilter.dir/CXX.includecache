@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Documents/test_ws/src/nmea2000/include/nmea2000/myfilter.hpp
+math.h
+-
+
+/home/ubuntu/Documents/test_ws/src/nmea2000/src/myfilter.cpp
+nmea2000/myfilter.hpp
+-
+

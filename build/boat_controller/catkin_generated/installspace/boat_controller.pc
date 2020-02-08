@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Documents/test_ws/install
+
+Name: boat_controller
+Description: Description of boat_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/Documents/test_ws/install/lib 
+Requires: 
